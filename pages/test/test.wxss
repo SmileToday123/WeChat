@@ -1,0 +1,18 @@
+page{
+
+}
+.add{
+  color:#ccc;
+  transform: color .25s;
+  border:1px solid;
+}
+
+.add::before{
+  border-top:10px solid;
+}
+.add::after{
+  border-left:10px solid;
+}
+.add::hover{
+  color:#06c;
+}

@@ -1,0 +1,7 @@
+<view class='card'>
+   <text class='card-title'>标题111</text>
+   <text class='card-date'>2017-12-11</text>
+   <image src='http://img2.imgtn.bdimg.com/it/u=1640541981,180857813&fm=11&gp=0.jpg' mode='aspectFill'></image>
+   <text class='card-desc'>越努力越幸运</text>
+   <text class='card-read'>查看详情</text>
+</view>

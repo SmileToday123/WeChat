@@ -1,0 +1,42 @@
+<view class="shop-list">
+  <image class='shopimg-list' mode='aspectFill' src="http://119.29.240.221:8081/image/奥罗.jpg"></image>
+  <!--由于没有设置view宽高属性，导致图片压缩 -->
+  <view class="shopdetail-list">
+      <text class='item-title ellipsis'>店铺名称：笑天大大多肉店铺</text>
+      <text class='item-tel'>电话号码：13700006688</text>
+      <text class='item-time'>营业时间：8:00-19:00</text>
+      <text class='item-address'>地址：海南省三亚市吉阳区和东街道</text>
+  </view>
+   <view class='shop-star'>
+      <view class='star-after'>★★★★★</view>
+      <view class='star-before'>★★★★★</view>
+  </view>
+</view>
+<view class="shop-list">
+  <image class='shopimg-list' mode='aspectFill' src="http://119.29.240.221:8081/image/奥罗1.jpg"></image>
+  <!--由于没有设置view宽高属性，导致图片压缩 -->
+  <view class="shopdetail-list">
+      <text class='item-title ellipsis'>店铺名称：多肉美食店铺</text>
+      <text class='item-tel'>电话号码：13700006688</text>
+      <text class='item-time'>营业时间：8:00-19:00</text>
+      <text class='item-address'>地址：海南省三亚市吉阳区和东街道</text>
+  </view>
+    <view class='shop-star'>
+      <view class='star-after'>★★★★★</view>
+      <view class='star-before'>★★★★★</view>
+  </view>
+</view>
+<view class="shop-list">
+  <image class='shopimg-list' mode='aspectFill' src="http://119.29.240.221:8081/image/纸风车.jpg"></image>
+  <!--由于没有设置view宽高属性，导致图片压缩 -->
+  <view class="shopdetail-list">
+      <text class='item-title ellipsis'>店铺名称：{{item.name}}</text>
+      <text class='item-tel'>电话号码：13700006688</text>
+      <text class='item-time'>营业时间：8:00-19:00</text>
+      <text class='item-address'>地址：海南省三亚市吉阳区和东街道</text>
+  </view>
+  <view class='shop-star'>
+      <view class='star-after'>★★★★★</view>
+      <view class='star-before'>★★★★★</view>
+  </view>
+</view>

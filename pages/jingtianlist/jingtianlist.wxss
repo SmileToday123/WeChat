@@ -1,0 +1,36 @@
+/* pages/jingtianlist/jingtianlist.wxss */
+page{
+  background-color: #fff;
+}
+.shop-list{
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+  display: flex;
+  position: relative;
+}
+.shopimg-list{
+  width: 160rpx;
+  height:160rpx;
+  margin-right: 18rpx;
+} 
+.shopdetail-list{
+  width: 520rpx;
+  display: flex;
+  flex-direction: column;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.shopdetail-list .item-title{
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  width:380rpx;
+}
+.shop-star{
+  position: absolute;
+  right:20rpx;
+  top:20rpx;
+  font-size: 14px;
+  /*absolute就不和其他元素相关，只管自己定位  */
+}

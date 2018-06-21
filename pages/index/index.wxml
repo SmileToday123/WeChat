@@ -1,0 +1,76 @@
+<!--轮播图片-->
+<view style='margin-bottom:-18rpx;'>
+  <swiper indicator-dots autoplay circular interval='3500' duration='2000'>
+    <swiper-item style='padding-left:10rpx;padding-right:10rpx;'>
+      <image src='/assets/image/banner.jpg' mode='aspectFill'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/assets/image/banner1.jpg' mode='aspectFill'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/assets/image/banner2.jpg' mode='aspectFill'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/assets/image/banner3.jpg' mode='aspectFill'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class='bgw' style='border-radius: 50rpx; margin-left:20rpx;margin-right:20rpx;overflow:hidden;'>
+  <!--分类区块-->
+  <scroll-view class='sortView' scroll-x="{{true}}">
+    <navigator class='sortItem'>
+      <image src='http://119.29.240.221:8081/image/奥罗.jpg' mode='aspectFill'></image>
+      <text>景天</text>
+    </navigator>
+    <navigator class='sortItem'>
+      <image src='http://119.29.240.221:8081/image/吉娃娃锦.jpg' mode='aspectFill'></image>
+      <text>屁屁</text>
+    </navigator>
+    <navigator class='sortItem'>
+      <image src='http://119.29.240.221:8081/image/纸风车.jpg' mode='aspectFill'></image>
+      <text>十二卷</text>
+    </navigator>
+    <navigator class='sortItem'>
+      <image src='http://119.29.240.221:8081/image/奥罗1.jpg' mode='aspectFill'></image>
+      <text>更多</text>
+    </navigator>
+  </scroll-view>
+</view>
+<!--精品贴区域-->
+<view style='display:flex;justify-content:center;margin-top:50rpx;'>
+  <text style='left:50%;'>----精选----</text>
+</view>
+<view style='display:flex;flex-wrap:wrap;justify-content:center;margin-top:-20rpx;'>
+  <navigator class='img-txt' style='width:300rpx;height:270rpx;margin:35rpx;'>
+    <image src='http://119.29.240.221:8081/image/奥罗1.jpg' mode='aspectFill'></image>
+    <text>奥罗</text>
+  </navigator>
+  <navigator class='img-txt' style='width:300rpx;height:270rpx;margin:35rpx;'>
+    <image src='http://119.29.240.221:8081/image/奥罗.jpg' mode='aspectFill'></image>
+    <text>奥罗</text>
+  </navigator>
+  <navigator class='img-txt' style='width:300rpx;height:270rpx;margin:35rpx;'>
+    <image src='http://119.29.240.221:8081/image/吉娃娃锦.jpg' mode='aspectFill'></image>
+    <text>吉娃娃锦</text>
+  </navigator>
+  <navigator class='img-txt' style='width:300rpx;height:270rpx;margin:35rpx;'>
+    <image src='http://119.29.240.221:8081/image/纸风车.jpg' mode='aspectFill'></image>
+    <text>纸风车</text>
+  </navigator>
+  <navigator class='img-txt' style='width:300rpx;height:270rpx;margin:35rpx;'>
+    <image src='http://119.29.240.221:8081/image/奥罗1.jpg' mode='aspectFill'></image>
+    <text>景天</text>
+  </navigator>
+  <navigator class='img-txt' style='width:300rpx;height:270rpx;margin:35rpx;'>
+    <image src='http://119.29.240.221:8081/image/奥罗.jpg' mode='aspectFill'></image>
+    <text>景天</text>
+  </navigator>
+  <navigator class='img-txt' style='width:300rpx;height:270rpx;margin:35rpx;'>
+    <image src='http://119.29.240.221:8081/image/吉娃娃锦.jpg' mode='aspectFill'></image>
+    <text>景天</text>
+  </navigator>
+  <navigator class='img-txt' style='width:300rpx;height:270rpx;margin:35rpx;'>
+    <image src='http://119.29.240.221:8081/image/纸风车.jpg' mode='aspectFill'></image>
+    <text>景天</text>
+  </navigator>
+</view>

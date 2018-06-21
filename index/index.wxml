@@ -1,0 +1,58 @@
+<view class='slider'>
+<swiper  indicator-color='' interval='3000' duration='2500' indicator-dots circular autoplay>
+ <block wx:for="{{imgUrls}}" wx:for-item="item">
+    <swiper-item>
+      <image src="{{item.src}}" mode="{{item.mode}}"></image>
+    </swiper-item>
+ </block>
+</swiper>
+  
+</view>
+<!--首页导航分区  -->
+<view class='index-nav'>
+  <navigator class='nav-item bdr' url='/pages/jingtianlist/jingtianlist'>
+    <image src='/assets/image/吉娃娃锦.jpg'></image>
+    <text space='emsp'>景  天</text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/image/荒玉.jpg'></image>
+    <text space='ensp'>生 石 花</text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/image/十二卷.jpg'></image>
+    <text space='ensp'>十 二 卷</text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/image/肉锥.jpg'></image>
+    <text space='emsp'>番  杏</text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/image/仙人球.jpg'></image>
+    <text space='ensp'>仙 人 球</text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/image/月季.jpg'></image>
+    <text space='emsp'>月  季</text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/image/吉娃娃锦.jpg'></image>
+    <text>交易市场</text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/image/吉娃娃锦.jpg'></image>
+    <text>个人日记</text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/image/吉娃娃锦.jpg'></image>
+    <text space='emsp'>建议意见</text>
+  </navigator>
+</view>
+<view class='.divider'></view>
+<view class='index-enter'>
+  <navigator class='enter-item'>
+    <image src='/assets/image/吉娃娃锦.jpg'></image>
+  </navigator>
+  <navigator class='enter-item'>
+    <image src='/assets/image/吉娃娃锦.jpg'></image>
+  </navigator>
+</view>
