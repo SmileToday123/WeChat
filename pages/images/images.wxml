@@ -1,5 +1,0 @@
-<!--图片文字封装1：使用时候需要自己设置高度和宽度，当出现左右margin不一致的时候，调整margin百分比。-->
-<view class='img-txt'>
-  <image src='http://119.29.240.221:8081/image/奥罗1.jpg' mode='aspectFill' ></image>
-  <text>景天</text>
-</view>

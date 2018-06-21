@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.98",
 	"appid": "wx845a0497e5888eb7",
-	"projectname": "%E5%A4%9A%E8%82%89%E6%A4%8D%E7%89%A9",
+	"projectname": "%E5%A4%9A%E8%82%89%E8%BF%B7",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -24,36 +24,13 @@
 			"current": -1,
 			"list": []
 		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
-			"list": [
-				{
-					"id": 0,
-					"name": "单页调试",
-					"pathName": "pages/index/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "首页单页调试",
-					"pathName": "index/index",
-					"query": ""
-				},
-				{
-					"id": 2,
-					"name": "测试图片页面",
-					"pathName": "pages/image/image",
-					"query": ""
-				}
-			]
+			"current": -1,
+			"list": []
 		}
 	}
 }
