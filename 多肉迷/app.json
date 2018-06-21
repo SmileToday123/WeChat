@@ -1,12 +1,32 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/images/images",
+    "pages/jingtianlist/jingtianlist"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "assets/image/主页.jpg",
+      "selectedIconPath": "assets/image/荒玉.jpg"
+    },{
+      "pagePath": "pages/images/images",
+      "text": "养护日记",
+      "iconPath": "assets/image/日记.jpg",
+      "selectedIconPath": "assets/image/荒玉.jpg"
+    },{
+      "pagePath":"pages/jingtianlist/jingtianlist",
+      "text":"景天",
+      "iconPath":"assets/image/市场1.jpg",
+      "selectedIconPath": "assets/image/荒玉.jpg"
+    }]
   }
 }

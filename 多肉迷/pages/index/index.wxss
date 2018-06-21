@@ -1,21 +1,79 @@
-/**index.wxss**/
-.userinfo {
+.slider{
+  width: 100%;
+  height:220rpx;
+  overflow: hidden;
+}
+
+.slider image,.slider swiper{
+  width: 100%;
+  height:220rpx;
+}
+
+
+
+.index-nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap:wrap;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.index-nav .nav-item{
+  width:33.33%;
+  height:200rpx;
+  /* border-right:1rpx solid #ccc; */
+  border-bottom:1rpx solid #ccc;
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  font-size:16px;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+
+
+/*原始处理边框线border */
+   .index-nav .nav-item:nth-child(3n)::after{
+  width: 0;
+}   
+
+.index-nav image{
+  width:80rpx;
+  height:80rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+/*------------模块3：首页入口分区 -------------- */
+.index-enter{
+  display: flex;
+  padding:20rpx 30rpx;
 }
+
+.index-enter .enter-item{
+  width:50%;
+  display: flex;
+  justify-content: center;
+}
+
+.index-enter image{
+  width: 320rpx;
+  height: 230rpx;
+}
+
+
+/*------方法一：设置page背景色，使用margin隔开分区，最后将分区设置为白色------*/
+/* page{
+  background-color:#ccc;
+}
+
+.index-nav,
+.index-enter{
+  background: #fff
+} */
+
+/*----方法二：封装需要的样式,并将全局使用的类，放入app.wxss----*/
+/* .bgw{
+  background-color: #fff;
+}
+
+.mt20{
+  margin-top:20rpx;
+} */
