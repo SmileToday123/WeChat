@@ -33,12 +33,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "image测试",
 					"pathName": "pages/images/images",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index1",
+					"pathName": "pages/index1/index1",
 					"query": ""
 				}
 			]

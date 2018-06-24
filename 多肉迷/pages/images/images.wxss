@@ -31,19 +31,18 @@
 /*--图片文字封装2--  */
 .imgbghd-txt{
   width:100%;
-  height: 600rpx;
-  /* position: relative; */
-  display: flex;
+  height: 500rpx;
+  position: relative;  
+  /* display: flex;   */
 }
 
 .imgbghd-txt .bgimg{
   width:100%;
-  height: 100%;
+  height:80%;
 }
 
 .imgbghd-txt .hdimg{
   width: 120rpx;
   height: 120rpx;
   border-radius: 50%;
-  position: absolute;
 }
