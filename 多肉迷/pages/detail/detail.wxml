@@ -1,0 +1,10 @@
+<view class='editHeader' style='height:500rpx;width:100%;border:1rpx solid #ccc;'>
+  <image style='width:100%;height:500rpx;' src='/assets/image/吉娃娃锦.jpg' mode='aspectFill'></image>
+  <text>作者</text>
+  <text>标题</text>
+  <text>阅读量</text>
+  <view><text>分享到：微信，微博，朋友圈，扣扣</text></view>
+</view>
+<view>
+  <text>可以编写图片和文字</text>
+</view>

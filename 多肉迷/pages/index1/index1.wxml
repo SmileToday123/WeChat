@@ -10,82 +10,113 @@
 </view>
 
 <!--最新活动-->
-<view style='height:100rpx;width:100%;' class='boderT'>
+<view style='height:100rpx;width:100%;display:none;'>
 </view>
 
 <!--本日热帖/丰富业态-->
 <view>
-  <view style='height:60rpx;width:100%;background-color:grey;'>
-    <text>本日热帖</text>
+  <view style='height:52rpx;width:100%;background-color:#ccc;padding-left:8rpx;'>
+    <text>微论坛</text>
   </view>
-  <view style='display:flex'>
-    <view style='height:200rpx;width:35%;background-color:yellow;'>
-      <text>这里是一个手动滑动模块，记录本周热帖</text>
-    </view>
-    <view style='height:200rpx;width:35%;background-color:yellow;'>
-      <text>这里是一个手动滑动模块，记录本周热帖</text>
-    </view>
-    <view style='height:200rpx;width:35%;background-color:yellow;'>
-      <text>这里是一个手动滑动模块，记录本周热帖</text>
-    </view>
-  </view>
+  <scroll-view scroll-x style='white-space: nowrap;display:flex;height:254rpx;background-color:#ccc;'>
+    <navigator wx:key='id' url='/pages/index2/index2' class='img-txt' style='height:250rpx;width:30%; display: inline-block'>
+      <image src='http://119.29.240.221:8081/image/奥罗1.jpg' mode='aspectFill'></image>
+      <text>景天</text>
+    </navigator>
+    <navigator url='/pages/index2/index2' class='img-txt' style='height:250rpx;width:30%; display: inline-block'>
+      <image src='http://119.29.240.221:8081/image/十二卷.jpg' mode='aspectFill'></image>
+      <text>十二卷</text>
+    </navigator>
+    <navigator url='/pages/index2/index2' class='img-txt' style='height:250rpx;width:30%; display: inline-block'>
+      <image src='http://119.29.240.221:8081/image/荒玉.jpg' mode='aspectFill'></image>
+      <text>生石花</text>
+    </navigator>
+    <navigator url='/pages/index2/index2' class='img-txt' style='height:250rpx;width:30%; display: inline-block'>
+      <image src='http://119.29.240.221:8081/image/肉锥.jpg' mode='aspectFill'></image>
+      <text>番杏</text>
+    </navigator>
+    <navigator url='/pages/index2/index2' class='img-txt' style='height:250rpx;width:30%; display: inline-block'>
+      <image src='http://119.29.240.221:8081/image/仙人球.jpg' mode='aspectFill'></image>
+      <text>仙人球</text>
+    </navigator>
+  </scroll-view>
 </view>
 
 <!--周精帖-->
-<view style='height:200rpx;width:100%;'>
-  <text>周精品帖</text>
-  <view style='display:flex;width:100%;height:100%;border-bottom:2rpx solid #f1f1f1;justify-content:cneter;align-items:center'>
-    <view style='width:25%;height:200rpx;display:flex;align-items:center;justify-content:center;border-radius:20%;'>
-      <image style='width:90%;height:90%;border-radius:20%;' mode='aspectFill' src='/assets/image/吉娃娃锦.jpg'></image>
-    </view>
-    <view style='position:relative;width:75%;height:100%'>
-      <text style='font-size:22px;position:absolute;top:4%;left:4%;'>笑天大大教你如何养好吉...</text>
-      <view style='position:absolute;bottom:4%;left:2%;width:50%;height:50%'>
-        <view style='width:100;height:100%;position:relative;display:flex;align-items:end'>
-          <image src='/assets/image/头像男.jpg' style='border-radius:50%;width:40rpx;height:40rpx;position:absolute;bottom:1rpx;' mode='aspectFill'></image>
-          <text style='font-size:14px;border-bottom:1px solid #ccc;border-left:22rpx solid transparent;position:absolute;bottom:1rpx;left:20rpx;'>笑天大大</text>
+<view style='width:100%;'>
+  <view style='height:52rpx;width:100%;background-color:#ccc;padding-left:8rpx;'>
+    <text>周精品帖</text>
+  </view>
+    <view style='display:flex;width:100%;height:200rpx;border-bottom:2rpx solid #f1f1f1;justify-content:cneter;align-items:center'>
+      <view style='width:25%;height:200rpx;display:flex;align-items:center;justify-content:center;border-radius:20%;'>
+        <image style='width:90%;height:90%;border-radius:20%;' mode='aspectFill' src='http://119.29.240.221:8081/image/肉锥.jpg'></image>
+      </view>
+      <view style='position:relative;width:75%;height:100%'>
+        <text style='font-size:22px;position:absolute;top:4%;left:4%;'>笑天大大教你如何养好肉...</text>
+        <view style='position:absolute;bottom:4%;left:2%;width:50%;height:50%'>
+          <view style='width:100;height:100%;position:relative;display:flex;align-items:end'>
+            <image src='/assets/image/头像男.jpg' style='border-radius:50%;width:40rpx;height:40rpx;position:absolute;bottom:1rpx;' mode='aspectFill'></image>
+            <text style='font-size:14px;border-bottom:1px solid #ccc;border-left:22rpx solid transparent;position:absolute;bottom:1rpx;left:20rpx;'>笑天大大</text>
+          </view>
+        </view>
+        <view style='width:100rpx;height:48rpx;position:absolute;bottom:4%;right:8%;display:flex;'>
+          <image style='width:36rpx;height:36rpx;position:absolute;top:100%;margin-top:-36rpx;' src='/assets/icon/赞.png'></image>
+          <text style='font-size:14px;position:absolute;top:100%;margin-top:-36rpx;border-left:36rpx solid transparent'>363</text>
         </view>
       </view>
-      <view style='width:100rpx;height:48rpx;position:absolute;bottom:4%;right:2%;display:flex;'>
-        <image style='width:36rpx;height:36rpx;position:absolute;top:100%;margin-top:-36rpx;'  src='/assets/icon/赞.png'></image>
-          <text style='font-size:14px;position:absolute;top:100%;margin-top:-36rpx;border-left:36rpx solid transparent'>363</text>
+    </view>
+    <view style='display:flex;width:100%;height:200rpx;border-bottom:2rpx solid #f1f1f1;justify-content:cneter;align-items:center'>
+      <view style='width:25%;height:200rpx;display:flex;align-items:center;justify-content:center;border-radius:20%;'>
+        <image style='width:90%;height:90%;border-radius:20%;' mode='aspectFill' src='http://119.29.240.221:8081/image/吉娃娃锦.jpg'></image>
       </view>
-    </view>
-  </view>
-   <view style='display:flex;width:100%;height:100%;border-bottom:2rpx solid #f1f1f1;justify-content:cneter;align-items:center'>
-    <view style='width:25%;height:200rpx;display:flex;align-items:center;justify-content:center;border-radius:20%;'>
-      <image style='width:90%;height:90%;border-radius:20%;' mode='aspectFill' src='/assets/image/吉娃娃锦.jpg'></image>
-    </view>
-    <view style='position:relative;width:75%;height:100%'>
-      <text style='font-size:22px;position:absolute;top:4%;left:4%;'>笑天大大教你如何养好吉...</text>
-      <view style='position:absolute;bottom:4%;left:2%;width:50%;height:50%'>
-        <view style='width:100;height:100%;position:relative;display:flex;align-items:end'>
-          <image src='/assets/image/头像男.jpg' style='border-radius:50%;width:40rpx;height:40rpx;position:absolute;bottom:1rpx;' mode='aspectFill'></image>
-          <text style='font-size:14px;border-bottom:1px solid #ccc;border-left:22rpx solid transparent;position:absolute;bottom:1rpx;left:20rpx;'>笑天大大</text>
+      <view style='position:relative;width:75%;height:100%'>
+        <text style='font-size:22px;position:absolute;top:4%;left:4%;'>笑天大大教你如何养好吉...</text>
+        <view style='position:absolute;bottom:4%;left:2%;width:50%;height:50%'>
+          <view style='width:100;height:100%;position:relative;display:flex;align-items:end'>
+            <image src='/assets/image/头像男.jpg' style='border-radius:50%;width:40rpx;height:40rpx;position:absolute;bottom:1rpx;' mode='aspectFill'></image>
+            <text style='font-size:14px;border-bottom:1px solid #ccc;border-left:22rpx solid transparent;position:absolute;bottom:1rpx;left:20rpx;'>笑天大大</text>
+          </view>
+        </view>
+        <view style='width:100rpx;height:48rpx;position:absolute;bottom:4%;right:8%;display:flex;'>
+          <image style='width:36rpx;height:36rpx;position:absolute;top:100%;margin-top:-36rpx;' src='/assets/icon/赞.png'></image>
+          <text style='font-size:14px;position:absolute;top:100%;margin-top:-36rpx;border-left:36rpx solid transparent'>363</text>
         </view>
       </view>
-      <view style='width:100rpx;height:48rpx;position:absolute;bottom:4%;right:2%;display:flex;'>
-        <image style='width:36rpx;height:36rpx;position:absolute;top:100%;margin-top:-36rpx;'  src='/assets/icon/赞.png'></image>
-          <text style='font-size:14px;position:absolute;top:100%;margin-top:-36rpx;border-left:36rpx solid transparent'>363</text>
+    </view>
+    <view style='display:flex;width:100%;height:200rpx;border-bottom:2rpx solid #f1f1f1;justify-content:cneter;align-items:center'>
+      <view style='width:25%;height:200rpx;display:flex;align-items:center;justify-content:center;border-radius:20%;'>
+        <image style='width:90%;height:90%;border-radius:20%;' mode='aspectFill' src='http://119.29.240.221:8081/image/荒玉.jpg'></image>
       </view>
-    </view>
-  </view>
-   <view style='display:flex;width:100%;height:100%;border-bottom:2rpx solid #f1f1f1;justify-content:cneter;align-items:center'>
-    <view style='width:25%;height:200rpx;display:flex;align-items:center;justify-content:center;border-radius:20%;'>
-      <image style='width:90%;height:90%;border-radius:20%;' mode='aspectFill' src='/assets/image/吉娃娃锦.jpg'></image>
-    </view>
-    <view style='position:relative;width:75%;height:100%'>
-      <text style='font-size:22px;position:absolute;top:4%;left:4%;'>笑天大大教你如何养好吉...</text>
-      <view style='position:absolute;bottom:4%;left:2%;width:50%;height:50%'>
-        <view style='width:100;height:100%;position:relative;display:flex;align-items:end'>
-          <image src='/assets/image/头像男.jpg' style='border-radius:50%;width:40rpx;height:40rpx;position:absolute;bottom:1rpx;' mode='aspectFill'></image>
-          <text style='font-size:14px;border-bottom:1px solid #ccc;border-left:22rpx solid transparent;position:absolute;bottom:1rpx;left:20rpx;'>笑天大大</text>
+      <view style='position:relative;width:75%;height:100%'>
+        <text style='font-size:22px;position:absolute;top:4%;left:4%;'>笑天大大教你如何优选荒..</text>
+        <view style='position:absolute;bottom:4%;left:2%;width:50%;height:50%'>
+          <view style='width:100;height:100%;position:relative;display:flex;align-items:end'>
+            <image src='/assets/image/头像男.jpg' style='border-radius:50%;width:40rpx;height:40rpx;position:absolute;bottom:1rpx;' mode='aspectFill'></image>
+            <text style='font-size:14px;border-bottom:1px solid #ccc;border-left:22rpx solid transparent;position:absolute;bottom:1rpx;left:20rpx;'>笑天大大</text>
+          </view>
+        </view>
+        <view style='width:100rpx;height:48rpx;position:absolute;bottom:4%;right:8%;display:flex;'>
+          <image style='width:36rpx;height:36rpx;position:absolute;top:100%;margin-top:-36rpx;' src='/assets/icon/赞.png'></image>
+          <text style='font-size:14px;position:absolute;top:100%;margin-top:-36rpx;border-left:36rpx solid transparent'>322263</text>
         </view>
       </view>
-      <view style='width:100rpx;height:48rpx;position:absolute;bottom:4%;right:2%;display:flex;'>
-        <image style='width:36rpx;height:36rpx;position:absolute;top:100%;margin-top:-36rpx;'  src='/assets/icon/赞.png'></image>
-          <text style='font-size:14px;position:absolute;top:100%;margin-top:-36rpx;border-left:36rpx solid transparent'>363</text>
+    </view>
+    <view style='display:flex;width:100%;height:200rpx;border-bottom:2rpx solid #f1f1f1;justify-content:cneter;align-items:center'>
+      <view style='width:25%;height:200rpx;display:flex;align-items:center;justify-content:center;border-radius:20%;'>
+        <image style='width:90%;height:90%;border-radius:20%;' mode='aspectFill' src='http://119.29.240.221:8081/image/十二卷.jpg'></image>
+      </view>
+      <view style='position:relative;width:75%;height:100%'>
+        <text style='font-size:22px;position:absolute;top:4%;left:4%;'>笑天大大教你如何玩十二..</text>
+        <view style='position:absolute;bottom:4%;left:2%;width:50%;height:50%'>
+          <view style='width:100;height:100%;position:relative;display:flex;align-items:end'>
+            <image src='/assets/image/头像男.jpg' style='border-radius:50%;width:40rpx;height:40rpx;position:absolute;bottom:1rpx;' mode='aspectFill'></image>
+            <text style='font-size:14px;border-bottom:1px solid #ccc;border-left:22rpx solid transparent;position:absolute;bottom:1rpx;left:20rpx;'>笑天大大</text>
+          </view>
+        </view>
+        <view style='width:100rpx;height:48rpx;position:absolute;bottom:4%;right:8%;display:flex;'>
+          <image style='width:36rpx;height:36rpx;position:absolute;top:100%;margin-top:-36rpx;' src='/assets/icon/赞.png'></image>
+          <text style='font-size:14px;position:absolute;top:100%;margin-top:-36rpx;border-left:36rpx solid transparent'>322263</text>
+        </view>
       </view>
     </view>
-  </view>
 </view>

@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -45,6 +45,24 @@
 					"id": -1,
 					"name": "index1",
 					"pathName": "pages/index1/index1",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "list测试",
+					"pathName": "pages/jingtianlist/jingtianlist",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index2",
+					"pathName": "pages/index2/index2",
 					"query": ""
 				}
 			]

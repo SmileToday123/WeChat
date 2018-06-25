@@ -1,1 +1,10 @@
-/* pages/jingtianlist/jingtianlist.wxss */
+.slider{
+  width: 100%;
+  height:220rpx;
+  overflow: hidden;
+}
+
+.slider image,.slider swiper{
+  width: 100%;
+  height:220rpx;
+}

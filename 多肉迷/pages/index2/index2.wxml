@@ -1,0 +1,28 @@
+<view class='slider'>
+  <swiper indicator-color='' interval='3000' duration='2500' indicator-dots circular autoplay>
+    <block wx:for="{{imgUrls}}" wx:for-item="item">
+      <swiper-item>
+        <image src="{{item.src}}" mode="{{item.mode}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<i-tabs current="{{current}}" bindchange="handleChange">
+  <i-tab key='tab1' title="养肉心情"></i-tab>
+  <i-tab key='tab2' title='养好肉文章'></i-tab>
+  <i-tab key='tab3' title='精品贴'></i-tab>
+</i-tabs>
+<i-tabs current="{{current}}" bindchange="handleChange">
+  <i-tab key='tab11' title="关注"></i-tab>
+  <i-tab key='tab22' title='大厅'></i-tab>
+</i-tabs>
+<view class='list' style='height:auto;width:100%'>
+    <view class='listitem' style='position:relative'>
+            <image src='/assets/image/头像男.jpg' style='width:60rpx;height:60rpx;position:absolute;top:1rpx;' mode='aspectFill'></image> 
+             <text style='font-size:14px;border-left:22rpx solid transparent;position:absolute;top:20rpx;left:32rpx;'>笑天大大</text>
+        <text style='font-size:14px;border-left:22rpx solid transparent;position:absolute;top:60rpx;left:32rpx;'>今天心情还不错，为此我随便写了五十个字来测试一下我的代码，你说对吗。还是很不错的，我希望你们喜欢！</text>
+    </view>
+</view>
+<view class='listAtcl'>
+
+</view>

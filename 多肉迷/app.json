@@ -1,15 +1,48 @@
 {
   "pages":[
+    "pages/index2/index2",
     "pages/index/index",
     "pages/index1/index1",
     "pages/logs/logs",
     "pages/images/images",
-    "pages/jingtianlist/jingtianlist"
+    "pages/jingtianlist/jingtianlist",
+    "pages/detail/detail"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#333",
+    "list": [
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "首页",
+        "iconPath": "assets/icon/主页.png",
+        "selectedIconPath": "assets/icon/主页.png"
+      },
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "养护经验",
+        "iconPath": "assets/icon/收藏夹.png",
+        "selectedIconPath": "assets/icon/主页.png"
+      },
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "市场",
+        "iconPath": "assets/icon/购物车.png",
+        "selectedIconPath": "assets/icon/主页.png"
+      },
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "日记",
+        "iconPath": "assets/icon/编辑.png",
+        "selectedIconPath": "assets/icon/主页.png"
+      }
+    ]
   }
 }
