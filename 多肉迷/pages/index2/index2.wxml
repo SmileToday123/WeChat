@@ -17,11 +17,22 @@
   <i-tab key='tab22' title='大厅'></i-tab>
 </i-tabs>
 <view class='list' style='height:auto;width:100%'>
-    <view class='listitem' style='position:relative'>
-            <image src='/assets/image/头像男.jpg' style='width:60rpx;height:60rpx;position:absolute;top:1rpx;' mode='aspectFill'></image> 
-             <text style='font-size:14px;border-left:22rpx solid transparent;position:absolute;top:20rpx;left:32rpx;'>笑天大大</text>
-        <text style='font-size:14px;border-left:22rpx solid transparent;position:absolute;top:60rpx;left:32rpx;'>今天心情还不错，为此我随便写了五十个字来测试一下我的代码，你说对吗。还是很不错的，我希望你们喜欢！</text>
+  <view class='listitem' style='position:relative'>
+    <image src='/assets/image/头像男.jpg' style='width:60rpx;height:60rpx;position:absolute;top:1rpx;' mode='aspectFill'></image>
+    <text style='font-size:14px;border-left:22rpx solid transparent;position:absolute;top:20rpx;left:32rpx;color:blue;'>笑天大大</text>
+    <text style='font-size:14px;border-left:22rpx solid transparent;position:absolute;top:60rpx;left:32rpx;'>今天心情还不错，为此我随便写了五十个字来测试一下我的代码，你说对吗。还是很不错的，我希望你们喜欢！</text>
+    <view style='display:flex;flex-wrap:wrap;'>
+      <image wx:if="{{true}}" style='width:20%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
+      <image wx:if="{{true}}" style='width:20%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
+      <image wx:if="{{true}}" style='width:20%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
+      <image wx:if="{{true}}" style='width:25%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
+      <image wx:if="{{true}}" style='width:25%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
+      <image wx:if="{{true}}" style='width:25%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
+      <image wx:if="{{true}}" style='width:25%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
+      <image wx:if="{{true}}" style='width:25%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
+      <image wx:if="{{true}}" style='width:25%;height:160rpx;margin:10rpx;' src='/assets/image/吉娃娃锦.jpg'></image>
     </view>
+  </view>
 </view>
 <view class='listAtcl'>
 
